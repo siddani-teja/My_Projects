@@ -1,4 +1,4 @@
-const link='http://www.omdbapi.com/?apikey=2e236cf9&t=';
+const link='https://www.omdbapi.com/?apikey=2e236cf9&t=';
 
 const s1=document.getElementById("intro")
 const s2=document.getElementById("loader")
