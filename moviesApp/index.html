@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <section class="inputField"  >
+            <div class="inputnbtn">
+                <input type="text" class="userinput" id="userinput" placeholder="Enter Movie Name Here .." required   />
+                <button id="btn">Search</button>
+            </div>
+        </section>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        
+        <section id="intro">
+            <div class="intro">
+                <h1>Do you want to get the movie details.</h1>
+                <p>Enter movie name and get your favorite movie details..   </p>
+            </div>
+        </section>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        
+        <section classname ><div id="loader" class=""></div></section>
+        
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <section id="error" class="error "><h1>Movie not found</h1></section>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        
+        <section id="moviedetails" >
+            <div class="details">
+                <div class="image">
+                    <img id="banner" src="https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg" alt="" srcset="">
+                    </div>
+
+
+                <div class="content">
+                    <h1 id="title"></h1>
+                    <div id="genre"></div>
+                    <p id="plot"></p>
+
+                    <table>
+                        <tr>
+                            <td>Director :</td><td id="director"></td></tr>
+                        <tr>
+                            <td>Writer :</td><td id="writer"></td>
+                        </tr>  
+                        <tr>
+                            <td>Cast :</td><td id="cast"></td>
+                        </tr>
+                        <tr>
+                            <td>Country :</td><td id="country"></td>
+                        </tr>
+                        <tr>
+                            <td>imdbRating:</td><td><span id="rating"> </span></td>
+                        </tr> 
+                        <tr>
+                            <td>Released:</td><td id="date"></td>
+                        </tr> 
+                        <tr>
+                            <td>Runtime:</td><td id="time"> </td>
+                        </tr> 
+                    </table>
+                    
+
+
+                </div>
+            </div>
+            
+        </section>
+        
+
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
